@@ -1,50 +1,31 @@
 from flask import Flask
 from flask import request
-from bottoken import token
+from flask import render_template
 import json
 import requests
+from telegram_bot.woofer_bot import WooferBot
+from bottoken import token
 
-apiUrl = 'https://api.telegram.org/bot{}/'.format(token)
+
 webhookUrl = '/bot/{}'.format(token)
 
-dogApiUrl = 'https://dog.ceo/api/breeds/image/random'
 
 app = Flask(__name__)
 
-
+bot = WooferBot(token)
 
 @app.route('/')
 def index():
-    return '<h1>Woofer Bot!</h1>'
+    return render_template('index.html')
 
 
 @app.route(webhookUrl, methods=['POST'])
 def web_hook_route():
     update = request.data.decode()
     updDict = json.loads(update)
-    message_text = updDict['message']['text']
-    chat_id = updDict['message']['chat']['id']
-    print(updDict)
-    if message_text == '/woof':
-        res = requests.get(dogApiUrl)
-        resDict = res.json()
-        if resDict['status'] == 'success':
-            dogImageUrl = resDict['message']
-            telegramResponse = sendPhoto(chat_id, dogImageUrl)
-            if not telegramResponse['ok']:
-                print('Error: {}. {}'.format(telegramResponse['error_code'], telegramResponse['description']))
-
+    bot.processUpdate(updDict)
     return ''
 
-def sendMessage(chat_id, message_text):
-    sendMsgUrl = apiUrl + 'sendMessage?chat_id={}&text={}'.format(chat_id, message_text)
-    res = requests.get(sendMsgUrl)
-    return res.json()
-
-def sendPhoto(chat_id, photo_url):
-    sendPhotoUrl = apiUrl + 'sendPhoto?chat_id={}&photo={}'.format(chat_id, photo_url)
-    res = requests.get(sendPhotoUrl)
-    return res.json()
 
 if __name__ == '__main__':
     app.run()
