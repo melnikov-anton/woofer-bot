@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Woofer Bot</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="header">Hi! I'm Woofer Bot!</h1>
+      <h2 class="header2">Woof! Woof!</h2>
+      <img class="doggo" src="{{ url_for('static', filename='dog.jpg') }}" alt="Woofer">
+      <div class="info">
+        <p>I know only two commands:</p>
+        <p><b>/woof</b> - you get a random picture of a dog</p>
+        <p><b>/fact</b> - you get a random fact about dogs</p>
+      </div>
+    </div>
+
+
+  </body>
+</html>

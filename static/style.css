@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing:border-box;
+}
+
+body {
+    background-color: #F4F4F4;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  width: 90%;
+  margin: auto;
+}
+
+.header {
+  margin-top: 30px;
+  font-size: 3.2rem;
+}
+
+.header2 {
+  margin-top: 20px;
+  font-size: 2rem;
+}
+
+.doggo {
+  margin-top: 40px;
+  max-width: 420px;
+  border-radius: 50%;
+}
+
+.info {
+  margin-top: 40px;
+  width: 420px;
+  padding: 25px;
+  border-radius: 10px;
+  border: solid 1px black;
+  background-color: #83BBFB;
+  font-size: 1.3rem;
+}
