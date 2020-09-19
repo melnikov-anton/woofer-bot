@@ -1,0 +1,244 @@
+{
+  "dog_facts": [
+    {
+      "id": 1,
+      "fact": "Puppies love games such as hide and seek! Hide, then call your pup's name so she can try to find you."
+    },
+    {
+      "id": 2,
+      "fact": "Dogs can learn more than 1000 words."
+    },
+    {
+      "id": 3,
+      "fact": "Big happy 'helicopter' tail wagging is one sign of a really nice dog"
+    },
+    {
+      "id": 4,
+      "fact": "Upright, stiff, rapid tail movement is not wagging or 'friendly' but indicates a dog who's rather excited and focused."
+    },
+    {
+      "id": 5,
+      "fact": "Puppies grow to half their body weight in the first four to five months!"
+    },
+    {
+      "id": 6,
+      "fact": "Puppies then take a year or more to gain the other half of their body weight."
+    },
+    {
+      "id": 7,
+      "fact": "Puppies can sleep 18 to 20 hours a day during that rapid body growth phase."
+    },
+    {
+      "id": 8,
+      "fact": "Dogs sometimes appear to smile — much like humans — with open mouth grinning. This may indicate a relaxed, submissive state."
+    },
+    {
+      "id": 9,
+      "fact": "Tired puppies get cranky just like little kids. If you have a fussy puppy, try nap time."
+    },
+    {
+      "id": 10,
+      "fact": "The fastest breed, the Greyhound, can run up to 44 miles per hour."
+    },
+    {
+      "id": 11,
+      "fact": "Perky-eared dogs hear sounds better than floppy-eared dogs."
+    },
+    {
+      "id": 12,
+      "fact": "There are about 400 million dogs in the world."
+    },
+    {
+      "id": 13,
+      "fact": "The Labrador Retriever is the most popular breed, according to the American Kennel Club."
+    },
+    {
+      "id": 14,
+      "fact": "There are hundreds of breeds of dogs."
+    },
+    {
+      "id": 15,
+      "fact": "The average dog lives 10 to 14 years."
+    },
+    {
+      "id": 16,
+      "fact": "In general, smaller breeds live longer than larger breeds."
+    },
+    {
+      "id": 17,
+      "fact": "The world's oldest breed, the Saluki, originated in Egypt around 329 B.C."
+    },
+    {
+      "id": 18,
+      "fact": "According to a study shared by Cornell University, dogs were domesticated between 9,000 and 34,000 years ago."
+    },
+    {
+      "id": 19,
+      "fact": "Thomas Jefferson helped enact a dog tax in Virginia, because he was annoyed that dogs were killing his sheep."
+    },
+    {
+      "id": 20,
+      "fact": "Stroking dogs and gazing into their eyes releases the 'feel good' hormone oxytocin for both people and dogs."
+    },
+    {
+      "id": 21,
+      "fact": "Dogs are omnivores -- they eat meat, grains and vegetables."
+    },
+    {
+      "id": 22,
+      "fact": "The heaviest breed, the Mastiff, weighs about 200 pounds."
+    },
+    {
+      "id": 23,
+      "fact": "More than half of all U.S. presidents have owned dogs."
+    },
+    {
+      "id": 24,
+      "fact": "President Calvin Coolidge owned at least a dozen dogs."
+    },
+    {
+      "id": 25,
+      "fact": "Just like human fingerprints, no two dogs' nose prints are alike."
+    },
+    {
+      "id": 26,
+      "fact": "At about 6 inches, the Chihuahua is the shortest breed."
+    },
+    {
+      "id": 27,
+      "fact": "Irish Wolfhounds, the tallest breed, are 30 to 35 inches tall."
+    },
+    {
+      "id": 28,
+      "fact": "A Russian dog named Laika was the first animal in space, traveling around Earth in 1957."
+    },
+    {
+      "id": 29,
+      "fact": "Dogs who bark the most: Miniature Schnauzers, Cairn Terriers, Yorkshire Terriers, Fox Terriers and West Highland White Terriers."
+    },
+    {
+      "id": 30,
+      "fact": "Puppies have 28 teeth and adult dogs have 42."
+    },
+    {
+      "id": 31,
+      "fact": "The best age to bring a puppy home is 8 to 12 weeks."
+    },
+    {
+      "id": 32,
+      "fact": "Dogs can see best at dawn and dusk."
+    },
+    {
+      "id": 33,
+      "fact": "Dogs aren't colorblind but their eyes don't have receptors for red. They see in shades of black and white and also in shades of blue and yellow."
+    },
+    {
+      "id": 34,
+      "fact": "New puppies have heat sensors in their noses to help find their moms while their eyes and ears are closed."
+    },
+    {
+      "id": 35,
+      "fact": "A dog's sense of smell is reduced by up to 40 percent when he's overheated and panting."
+    },
+    {
+      "id": 36,
+      "fact": "Highly trainable dog breeds like Golden Retrievers, Labrador Retrievers, German Shepherds and Collies are more kid-friendly than some other breeds."
+    },
+    {
+      "id": 37,
+      "fact": "Bichons, Portuguese Water Dogs, Kerry Blue Terriers, Maltese and Poodles are all good choices if you have allergies since they shed less than other breeds."
+    },
+    {
+      "id": 38,
+      "fact": "More than one in three U.S. families owns a dog."
+    },
+    {
+      "id": 39,
+      "fact": "The average number of puppies in a litter is four to six."
+    },
+    {
+      "id": 40,
+      "fact": "There are nearly 14,000 animal shelters and rescue groups across North America."
+    },
+    {
+      "id": 41,
+      "fact": "Service dogs are recognized in the U.S. as 'necessary medical equipment.'"
+    },
+    {
+      "id": 42,
+      "fact": "Therapy dogs, who bring healing to individuals and families by visiting hospitals, schools or retirement homes, differ from service dogs, who assist individuals who have disabilities."
+    },
+    {
+      "id": 43,
+      "fact": "The Newfoundland has a water-resistant coat and webbed feet."
+    },
+    {
+      "id": 44,
+      "fact": "As Disney's Cruella De Vil was aware, Dalmatian puppies are born pure white and develop spots as they grow older."
+    },
+    {
+      "id": 45,
+      "fact": "Dogs sweat through the pads of their feet."
+    },
+    {
+      "id": 46,
+      "fact": "Dogs have three eyelids, including one to keep their eyes moist and protected."
+    },
+    {
+      "id": 47,
+      "fact": "Chow Chows are born with pink tongues, which turn blue-black at 8 to 10 weeks."
+    },
+    {
+      "id": 48,
+      "fact": "Dogs are pack animals — they don't enjoy being alone."
+    },
+    {
+      "id": 49,
+      "fact": "In ancient China, people kept warm by putting dogs up their sleeves."
+    },
+    {
+      "id": 50,
+      "fact": "Dogs who have been spayed or neutered live longer than intact dogs."
+    },
+    {
+      "id": 51,
+      "fact": "A bloodhound named Tigger holds the record for the longest ears, each measuring more than 13 inches."
+    },
+    {
+      "id": 52,
+      "fact": "Bingo is the name of the dog on the box of Cracker Jacks."
+    },
+    {
+      "id": 53,
+      "fact": "In 1969, Lassie was the first animal inducted into the Animal Hall of Fame."
+    },
+    {
+      "id": 54,
+      "fact": "The Alaskan Malamute can withstand temperatures as low as 70 degrees below zero."
+    },
+    {
+      "id": 55,
+      "fact": "Petting a dog can lower your blood pressure."
+    },
+    {
+      "id": 56,
+      "fact": "Stray dogs in Moscow have learned to ride the subway to find food."
+    },
+    {
+      "id": 57,
+      "fact": "Over half of dog owners include their dogs in annual holiday photos."
+    },
+    {
+      "id": 58,
+      "fact": "Although it was once illegal to keep dogs as pets in Iceland's capital city, the laws have been relaxed."
+    },
+    {
+      "id": 59,
+      "fact": "President Lyndon Johnson's beagles were named Him and Her."
+    },
+    {
+      "id": 60,
+      "fact": "One unspayed female dog, her mate and their puppies can produce 67,000 puppies in six years."
+    }
+  ]
+}
