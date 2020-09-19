@@ -5,12 +5,13 @@ import json
 import requests
 from telegram_bot.woofer_bot import WooferBot
 from bottoken import token
-
+from flask_sslify import SSLify
 
 webhookUrl = '/bot/{}'.format(token)
 
 
 app = Flask(__name__)
+sslify = SSLify(app)
 
 bot = WooferBot(token)
 

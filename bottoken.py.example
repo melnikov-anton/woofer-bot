@@ -1,0 +1,2 @@
+# Rename this file to bottoken.py
+token = 'YOUR_TELEGRAM_BOT_TOKEN'
