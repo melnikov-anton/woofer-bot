@@ -6,6 +6,14 @@ import os
 
 dogApiUrl = 'https://dog.ceo/api/breeds/image/random'
 dogFactsFilePath = os.path.abspath(os.path.join(os.path.dirname( __file__ ), '..', 'static/facts/dog_facts.json'))
+wellcome_message = '''
+<pre>
+Hi, I know only two commands:
+<strong>/woof</strong> - you get a random picture of a dog
+<strong>/fact</strong> - you get a random fact about dogs
+Woof! Woof!
+</pre>
+'''
 
 class WooferBot(TelegramBotAPI):
 
@@ -20,6 +28,8 @@ class WooferBot(TelegramBotAPI):
             return self.commandWoof(chat_id)
         if message_text == '/fact':
             return self.commandFact(chat_id)
+        if message_text == '/start':
+            return self.commandStart(chat_id)
 
 
     def commandWoof(self, chat_id):
@@ -40,6 +50,13 @@ class WooferBot(TelegramBotAPI):
             dog_facts = data['dog_facts']
         random_fact = dog_facts[random.randint(1, 60)]['fact']
         telegramResponse = self.sendMessage(chat_id, random_fact)
+        if not telegramResponse['ok']:
+            print('Error: {}. {}'.format(telegramResponse['error_code'], telegramResponse['description']))
+
+        return telegramResponse
+
+    def commandStart(self, chat_id):
+        telegramResponse = self.sendMessage(chat_id, wellcome_message, parse_mode='HTML')
         if not telegramResponse['ok']:
             print('Error: {}. {}'.format(telegramResponse['error_code'], telegramResponse['description']))
 
